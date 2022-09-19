@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	scrollbar-width: 10px;
+	scrollbar-color: rgb(220, 0, 0);
+}
+
+body,
+html {
+	height: 100%;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: aqua;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(22, 22, 22);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(220, 0, 0);
+	border-radius: 10px;
+	border: 2px solid;
+	color: rgb(22, 22, 22);
+}
+
+.bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.center-top {
+	position: fixed;
+	padding-top: 10px;
+	width: 100%;
+	height: 100px;
+	background-color: rgb(22, 22, 22);
+}
+
+#top-links {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.center-top img {
+	width: 2.4%;
+	transition: transform .45s ease;
+}
+
+#a-img {
+	width: .8%;
+}
+
+.header-title {
+	position: absolute;
+	
+	left: 5%;
+	top: 30%;
+	width: 650px;
+}
+
+.legal-content {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	
+	text-decoration: underline;
+}
+
+.join-button {
+	position: absolute;
+	
+	right: 10%;
+	top: 30%;
+}
+
+.join-button img {
+	width: 330px;
+	transition: transform .45s ease;
+}
+
+.join-button img:hover {
+	transform: scale(1.1);
+}
+
+.center-top img:hover {
+	transform: rotate(360deg);
+}
+
+.bi-left {
+	margin-left: 25%;
+	max-width: 560px;
+	display: block;
+	padding: 10px;
+	border: 1px solid rgb(220, 0, 0);
+	transform: skew(-3deg);
+}
+
+.bi-right {
+	margin-left: 25%;
+	max-width: 560px;
+	display: block;
+	padding: 10px;
+	border: 1px solid rgb(220, 0, 0);
+	transform: skew(-3deg);
+}
+
+.bi-left img  {
+	transition: transform .45s ease;
+	width: 516px;
+	max-height: 263px;
+}
+
+.bi-right img {
+	transition: transform .45s ease;
+	width: 516px;
+	max-height: 263px;
+}
+
+.bi-left img:hover  {
+	transform: scale(1.01);
+}
+
+.bi-right img:hover {
+	transform: scale(1.01);
+}
+
+.bi-left span  {
+	font-size: 10px;
+}
+
+.bi-right span {
+	font-size: 10px;
+}
+
+.bottom-info1 {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	top: 110%;
+}
+
+.bottom-info2 {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	top: 130%;
+}
+
+.title-bilder {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 100%;
+}
